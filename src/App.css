@@ -6,14 +6,16 @@
   --blue: #1e90ff;
   --white: #ffffff;
 }
-body{
+
+/******************** Navbar ********************/
+
+.nav{
   font-family: 'Courier New', Courier, monospace;
   color: var(--blue);
-  
 }
+
 ul{
   display: inline-block;
-
 }
 
 ul >li{

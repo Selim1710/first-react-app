@@ -1,14 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
 import Navbar from './componets/Navbar';
+import FormControl from './componets/FormControl';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <header className="App-header">
-       <h1>ki vai Thik ache?</h1>
-      </header>
+    <div>
+      <div className='nav'><Navbar /></div>
+      <br />
+      <div><FormControl/></div>
+
     </div>
   );
 }
