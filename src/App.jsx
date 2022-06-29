@@ -2,10 +2,8 @@
 import './App.css';
 import Navbar from './componets/Navbar';
 import FormControl from './componets/FormControl';
-import FunctionComponent from './componets/FunctionComponent'
-import ClassComponent from './componets/ClassComponent'
-import LifeCycleA from './componets/LifeCycleA'
-import LifeCycleB from './componets/LifeCycleB';
+import Portal from './componets/Portal';
+import Test from './componets/Test';
 
 function App() {
   return (
@@ -14,13 +12,9 @@ function App() {
       <br />
       <div><FormControl/></div>
       <br />
-      <div><FunctionComponent name="Function"/></div>
+      <div><Portal/></div>
       <br />
-      <div><ClassComponent name="Class"/></div>
-      <br />
-      <div><LifeCycleA /></div>
-      <br />
-      <div><LifeCycleB /></div>
+      <div><Test/></div>
     </div>
   );
 }
